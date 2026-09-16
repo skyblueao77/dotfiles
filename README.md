@@ -1,5 +1,9 @@
 # dotfiles
 
+[![Security Policy](https://img.shields.io/badge/Security-Policy-blue?style=flat-square&logo=github)](.github/SECURITY.md)
+[![Dependabot Enabled](https://img.shields.io/badge/Dependabot-Enabled-brightgreen?style=flat-square&logo=dependabot)](https://github.com/skyblueao77/dotfiles/security)
+[![Secret Scanning](https://img.shields.io/badge/Secret_Scanning-Active-success?style=flat-square&logo=github)](https://github.com/skyblueao77/dotfiles/security)
+
 WSL2（Ubuntu）で使うシェル、Git、SSH、プロンプトの設定と、開発環境の初期セットアップスクリプトを管理するリポジトリです。
 
 ## 構成
