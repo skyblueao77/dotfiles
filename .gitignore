@@ -1,0 +1,23 @@
+# SSH secrets
+**/id_ed25519
+**/id_rsa
+**/*.key
+**/*.pem
+
+# SSH generated/runtime files
+**/known_hosts
+**/known_hosts.old
+**/agent/
+
+# Fish runtime state
+**/fish_variables
+
+# Local Git configuration
+/git/gitconfig.local
+
+# Backup files
+*.bak
+*~
+
+# Misc
+.DS_Store

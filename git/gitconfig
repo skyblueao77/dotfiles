@@ -1,0 +1,22 @@
+[include]
+	path = ~/.gitconfig.local
+
+[init]
+	defaultBranch = main
+[color]
+	ui = auto
+[core]
+	autocrlf = input
+[push]
+	default = simple
+[commit]
+	gpgsign = true
+[gpg]
+	format = ssh
+[tag]
+	gpgsign = true
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
